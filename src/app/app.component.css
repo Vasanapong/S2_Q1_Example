@@ -1,0 +1,23 @@
+.App{
+    /* border: 1px solid black; */
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px minmax(100px,auto) 300px;
+    grid-template-rows: 1fr;
+    overflow: scroll;
+  }
+  
+  .box1{
+    border: 1px solid black;
+  }
+  
+  .box3{
+    border: 1px solid black;
+  }
+  
+  @media screen and (min-width:600px) {
+    .App{
+      overflow: unset;
+    }
+  }
